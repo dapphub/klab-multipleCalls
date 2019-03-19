@@ -1,0 +1,24 @@
+{
+  "name": "multipleCalls",
+  "src": {
+    "smt_prelude":   "src/prelude.smt2.md",
+    "specification": "src/specification.act.md",
+    "rules": [
+      "src/lemmas.k.md",
+      "src/storage.k.md"
+    ]
+  },
+  "implementations": {
+    "Callee": {
+      "name": "Callee",
+      "solc_output": "dapp/out/easyNest.sol.json"
+    },
+    "easyNest": {
+      "name": "easyNest",
+      "solc_output": "dapp/out/easyNest.sol.json"
+    }
+  },
+  "dapp_root": "dapp",
+  "host": "127.0.0.1:8080"
+}
+

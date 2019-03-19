@@ -1,0 +1,3 @@
+[submodule "dapp"]
+	path = dapp
+	url = https://github.com/dapphub/multipleCalls.git
