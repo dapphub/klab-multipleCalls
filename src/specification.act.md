@@ -1,5 +1,3 @@
-yeah
-no?
 
 ```act
 behaviour calling of easyNest
