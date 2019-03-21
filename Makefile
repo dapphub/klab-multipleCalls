@@ -1,1 +1,2 @@
-all    :; cd dapp && dapp build && cd ..
+all  : dapp
+dapp :; cd dapp && dapp build && cd ..
