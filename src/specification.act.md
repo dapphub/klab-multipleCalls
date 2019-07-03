@@ -44,7 +44,7 @@ storage
 
 iff in range uint256
 
-  Temperature + x
+  Temperature
 
 iff
 
