@@ -1,9 +1,10 @@
 with import <nixpkgs> {};
 stdenv.mkDerivation {
-  name = "multipleCalls";
+  name = "k-dss";
   buildInputs = [
     flex
     getopt
+    utillinux
     git
     gnumake
     jq
