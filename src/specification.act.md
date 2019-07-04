@@ -1,3 +1,4 @@
+
 ```act
 behaviour calling of easyNest
 interface raiseTemp(uint256 x)
@@ -43,7 +44,7 @@ storage
 
 iff in range uint256
 
-  Temperature + x
+  Temperature
 
 iff
 

@@ -19,6 +19,6 @@
     }
   },
   "dapp_root": "dapp",
-  "host": "127.0.0.1:8080"
+  "url": "https://github.com/dapphub/klab-multipleCalls/"
 }
 

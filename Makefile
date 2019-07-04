@@ -1,2 +1,3 @@
-all  : dapp
-dapp :; cd dapp && dapp build && cd ..
+.PHONY  : all dapp
+all     : dapp
+dapp    :; git submodule update --init --recursive && cd dapp && dapp build && cd ..
